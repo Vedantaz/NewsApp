@@ -1,0 +1,48 @@
+1. Module not found: Can't resolve './components/NewsItem' in 'C:\Users\mulev\Desktop\Custom OfficeWorks\designer_Way\newsapp\src\components'  
+soln :  Just write the correct react code , see the spelling , and lastly imp : see the path given like here ,
+correct path is : './NewsItem'             😆
+wrong path is : './components/NewsItem'
+
+2. Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'page')
+at News.handleNextClick (News.js:43)
+at HTMLUnknownElement.callCallback (react-dom.development.js:3945)
+at Object.invokeGuardedCallbackDev (react-dom.development.js:3994)
+at invokeGuardedCallback (react-dom.development.js:4056)
+at invokeGuardedCallbackAndCatchFirstError (react-dom.development.js:4070)
+at executeDispatch (react-dom.development.js:8243)
+at processDispatchQueueItemsInOrder (react-dom.development.js:8275)
+at processDispatchQueue (react-dom.development.js:8288)
+at dispatchEventsForPlugins (react-dom.development.js:8299)
+at react-dom.development.js:8508
+at batchedEventUpdates$1 (react-dom.development.js:22396)
+at batchedEventUpdates (react-dom.development.js:3745)
+at dispatchEventForPluginEventSystem (react-dom.development.js:8507)
+at attemptToDispatchEvent (react-dom.development.js:6005)
+at dispatchEvent (react-dom.development.js:5924)
+at unstable_runWithPriority (scheduler.development.js:468)
+at runWithPriority$1 (react-dom.development.js:11276)
+at discreteUpdates$1 (react-dom.development.js:22413)
+at discreteUpdates (react-dom.development.js:3756)
+at dispatchDiscreteEvent (react-dom.development.js:5889)
+
+Unhandled Rejection (TypeError): Cannot read properties of undefined (reading 'page')
+
+soln : Quite simple , i just miss-Spelled state as stage / statee : 😂😂
+
+3. sometimes if an unexpected and unrecognize error (so much weird ) comes ,  then 
+just check your spell, or parenthesis to cure . Simply easy 😂🤣.
+
+
+# for infinite scroll bar mentioned here .
+npm i react-infinite-scroll-component.
+
+# top loading gemerally you willl see in the ytube .
+npm i react-top-loading-bar
+
+error:: 
+Attempted import error: './components/News' does not contain a default export (imported as 'News').
+soln > > 
+just write in every app components app like this :
+export default App  //{for app.js}        // especially in function based components .
+
+
