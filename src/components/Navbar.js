@@ -22,9 +22,9 @@ const Navbar = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Link className="nav-link" to="/">
+              {/* <Link className="nav-link" to="/">
                 Top News
-              </Link>
+              </Link> */}
               <Link className="nav-link" to="/business">
                 Business
               </Link>

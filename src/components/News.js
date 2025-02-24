@@ -20,6 +20,7 @@ const News = (props) => {
 
     // const url = `https://newsapi.org/v2/top-headlines?country=
     // ${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
+
     const url = `https://newsapi.org/v2/top-headlines/category=${props.category}?q=bitcoin&apiKey=${props.apiKey}`;
 
     setLoading(true);
